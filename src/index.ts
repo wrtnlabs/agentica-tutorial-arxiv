@@ -28,7 +28,7 @@ export const agent = new Agentica({
 const main = async () => {
   console.log(
     await agent.conversate(
-      "Search 10 arxiv papers from 2024 to 2025 that include AI keywords."
+      "Please search for 10 papers containing AI keywords from 2024 to 2025."
     )
   );
 };
